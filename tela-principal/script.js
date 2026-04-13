@@ -1,10 +1,15 @@
 // seleciona as classes para interagir
 const btnMenu = document.querySelector('.btn_menu_mobile');
 const menu = document.querySelector('.mobile_menu');
+const closeBtn = document.querySelector('.close-menu');
 
 // abrir menu mobile
 btnMenu.addEventListener('click', () => {
     menu.classList.toggle('active');
+});
+
+closeBtn.addEventListener("click", () => {
+  menu.classList.remove("active");
 });
 
 // fechar ao clicar fora
