@@ -5,39 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NextBank</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header id="menu">
       <div class="logo_banco">
-        <h1>Next <span class="color">Bank</span></h1>
+        <h1 class="logo-header">Next<span class="color">Bank</span></h1>
       </div>
 
       <nav id="nav_links">
         <ul class="list_links">
-          <li><a href="#">NB Contas</a></li>
-          <li><a href="#">NB Empresas</a></li>
-          <li><a href="#">Investimentos</a></li>
-          <li><a href="#">Shopping</a></li>
+          <li class="links_dersktop"><a href="#">NB Contas</a></li>
+          <li class="links_dersktop"><a href="#">NB Empresas</a></li>
+          <li class="links_dersktop"><a href="#">Investimentos</a></li>
+          <li class="links_dersktop"><a href="#">Shopping</a></li>
         </ul>
 
-        <div class="btn_header">
-          <button>Abra sua conta</button>
-          <button>Acessar web banking</button>
-        </div>
-
         <div class="btn_menu_mobile">
-            <img src="img/menu-mobile(hamburguer).png" alt="imagem do menu mobile">
+          <img
+            src="img/menu-mobile(hamburguer).png"
+            alt="imagem do menu mobile"
+          />
         </div>
       </nav>
 
+      <div class="btn_header">
+        <button>Abra sua conta</button>
+        <button>Acessar web banking</button>
+      </div>
+
       <div class="mobile_menu">
         <ul id="mobile_list_links">
-          <li><a href="#">NB Contas</a></li>
-          <li><a href="#">NB Empresas</a></li>
-          <li><a href="#">Investimentos</a></li>
-          <li><a href="#">Shopping</a></li>
-          <li><a href="#">Abrir conta</a></li>
-          <li><a href="#">Web banking</a></li>
+          <img class="close-menu" src="img/fechar-menu-img.png" alt="fechar menu mobile">
+          <li class="links_mobile"><a href="#">NB Contas</a></li>
+          <li class="links_mobile"><a href="#">NB Empresas</a></li>
+          <li class="links_mobile"><a href="#">Investimentos</a></li>
+          <li class="links_mobile"><a href="#">Shopping</a></li>
+          <li class="links_mobile"><a href="#">Abrir conta</a></li>
+          <li class="links_mobile"><a href="#">Web banking</a></li>
         </ul>
       </div>
     </header>
