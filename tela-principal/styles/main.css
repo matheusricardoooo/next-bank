@@ -1,11 +1,11 @@
 #main-next {
     width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 120px 50px 100px 30px;
+    padding: 0px 90px 0px 5vw;
     background-color: #C3DBC0;
-    top: 60px;
     position: relative;
 }
 
@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 40px 50px;
+    padding: 40px 20px;
 }
 
 .tittle-main {
@@ -58,14 +58,13 @@
 @media screen and (max-width: 1130px) {
     #main-next {
         flex-direction: column-reverse;
-        padding: 50px 30px 150px 30px;
+        padding: 0;
+        padding: 0px 30px 90px 30px;
     }
 
     .content-main {
-        padding: 0;
         gap: 40px;
         text-align: center;
-        margin-top: 40px;
     }
 
     .tittle-main {
@@ -76,6 +75,10 @@
     .paragraph-main {
         width: 100%;
         font-size: 1rem;
+    }
+
+    .img-main {
+        margin-top: 1000px;
     }
 
     .img-cartao {
