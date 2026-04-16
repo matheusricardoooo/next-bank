@@ -119,14 +119,14 @@
   #mobile_list_links {
     display: flex;
     flex-direction: column;
-    gap: 90px;
+    gap: 60px;
   }
 
   .links_mobile a {
     text-decoration: none;
     color: #0c6e00;
     font-family: "Inter", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
   }
 
