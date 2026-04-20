@@ -301,19 +301,19 @@
 }
 
 .img-icon-cartao {
-  width: 90px;
-  height: 65px;
+  width: 80px;
+  height: 55px;
   margin-top: 10px;
 }
 
 .img-icon-cash {
-  width: 75px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
 }
 
 .img-icon-taxa {
-  width: 75px;
-  height: 68px;
+  width: 60px;
+  height: 58px;
 }
 
 .tittle-card {
@@ -334,7 +334,7 @@
 .btn-card1,
 .btn-card2,
 .btn-card3 {
-  padding: 10px 20px;
+  padding: 15px 60px;
   border: none;
   border-radius: 10px;
   background-color: #094e00;
@@ -353,13 +353,16 @@
   background-color: #0c6e00;
 }
 
-.btn-card1,
+.btn-card1 {
+  margin-top: 70px;
+}
+
 .btn-card2 {
-  margin-top: 60px;
+  margin-top: 68px;
 }
 
 .btn-card3 {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 1130px) {
@@ -558,6 +561,11 @@
   font-size: 0.9rem;
   text-align: center;
   padding: 15px;
+  transition: 0.3s ease;
+}
+
+.card-about:hover {
+  background-color: #0c6e00;
 }
 
 @media screen and (max-width: 920px) {
