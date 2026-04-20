@@ -725,3 +725,98 @@
     justify-content: center;
   }
 }
+
+/* --------------estilização da seção rendimento---------------- */
+
+#rendimento {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #285500 10%,  #C4DCC1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px 0px 9vw;
+}
+
+.content-rendimento {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.tittle-rendimento {
+  width: 521px;
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.paragraph-rendimento {
+  width: 521px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.img-telefone {
+  width: 390px;
+  height: 580px;
+}
+
+@media screen and (max-width: 1130px) {
+  #rendimento {
+    flex-direction: column-reverse;
+    padding: 80px 30px;
+    height: auto;
+  }
+
+  .content-rendimento {
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .tittle-rendimento {
+    width: 100%;
+    font-size: 2.5rem;
+    color: #000;
+  }
+
+  .paragraph-rendimento {
+    width: 100%;
+    font-size: 1rem;
+    color: #000;
+  }
+
+  .img-telefone {
+    width: 300px;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #rendimento {
+    flex-direction: column-reverse;
+    padding: 80px 30px;
+    height: auto;
+  }
+
+  .content-rendimento {
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .tittle-rendimento {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .img-telefone {
+    width: 250px;
+    height: 350px;
+  }
+}
