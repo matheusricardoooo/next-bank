@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 40px;
+  padding: 12px 40px;
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -14,7 +14,7 @@
 
 .logo-header {
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 700;
   color: #094e00;
 }
@@ -43,13 +43,13 @@
 }
 
 .btn_header button {
-  padding: 10px 20px;
+  padding: 9px 15px;
   border: none;
   border-radius: 10px;
   background-color: #094e00;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -274,9 +274,9 @@
 
 #vantagens-cards {
   width: 100vw;
-  height: 80vh;
-  padding: 0px 30px;
+  height: 100vh;
   background: linear-gradient(to bottom, #C4DCC1 50%, #285500);
+  padding-bottom: 20vh;
 }
 
 .cards-vantagens {
@@ -285,6 +285,7 @@
   width: 100%;
   height: 100%;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -488,5 +489,105 @@
   width: 200px;
   font-size: 0.8rem;
   margin-top: 30px;
+}
+}
+
+/* --------------estilização da seção sobre---------------- */
+
+#about-next {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/img-about.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 40px 100px 0px 0px;
+}
+
+.content-next {
+  width: 500px;
+  height: 600px;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-radius: 15px;
+}
+
+.tittle-about-next {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #000;
+  margin-top: 30px;
+}
+
+.paragraph-about-next {
+  width: 450px;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+
+.cards-about-next {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-about {
+  width: 450px;
+  height: 100px;
+  background-color: #094e00;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 15px;
+}
+
+@media screen and (max-width: 920px) {
+  #about-next {
+    height: auto;
+    padding: 180px 30px 100px 30px;
+    justify-content: center;
+  }
+
+  .content-next {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .tittle-about-next {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .paragraph-about-next {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .card-about {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
 }
 }
