@@ -143,9 +143,26 @@
 }
 
 @media screen and (max-width: 500px) {
+
+  #menu {
+    padding: 0;
+    padding: 0;
+    padding: 5px 20px;
+  }
+
+  .logo-header {
+    font-size: 1.2rem;
+  }
+
   .mobile_menu {
     width: 100vw;
     justify-content: center;
+  }
+
+  .btn_menu_mobile img {
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
   }
 }
 
@@ -248,7 +265,7 @@
     display: flex;
     gap: 30px;
     padding: 0;
-    padding: 0px 30px 100px 30px;
+    padding: 0px 30px 50px 30px;
     height: 90vh;
   }
 
@@ -731,7 +748,7 @@
 #rendimento {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, #285500 10%,  #C4DCC1);
+  background: linear-gradient(to bottom, #285500 10%, #C4DCC1);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -818,5 +835,94 @@
   .img-telefone {
     width: 250px;
     height: 350px;
+  }
+}
+
+/* --------------estilização da seção de shopping---------------- */
+
+#shopping-next {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/img-nbshopping.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0px 50px 0px 0px;
+}
+
+.content-shopping {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.tittle-shopping {
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.paragraph-shopping {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.btn-shopping-next {
+  width: 30vw;
+  height: 7vh;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #0c6e00;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-shopping-next:hover {
+  background-color: #0c6e00;
+  color: #fff;
+}
+
+@media screen and (max-width: 1130px) {
+  #shopping-next {
+    align-items: center;
+    padding: 0;
+    padding: 80px 30px;
+    height: auto;
+  }
+
+  .content-shopping {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .tittle-shopping {
+    font-size: 2rem;
+  }
+
+  .paragraph-shopping {
+    font-size: 1rem;
+  }
+
+  .btn-shopping-next {
+    width: 50vw;
+    height: auto;
+    padding: 15px;
+    font-size: 0.9rem;
   }
 }
